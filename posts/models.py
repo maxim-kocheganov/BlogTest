@@ -5,7 +5,7 @@ from django.conf import settings
 class Cathegory(models.Model):
     name = models.CharField(max_length=50)
 
-class Person(models.Model):
+class Post(models.Model):
     title = models.CharField(max_length=50)
     content = models.CharField(max_length=250)
     created = models.DateTimeField()
